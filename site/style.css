@@ -676,3 +676,32 @@ footer {
     transform: none;
   }
 }
+
+/* ---------- Annotated bibliography ---------- */
+.bib {
+  padding-left: 0;
+  list-style: none;
+}
+
+.bib li {
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--tan);
+}
+
+.bib li:last-child {
+  border-bottom: 0;
+}
+
+.bib a {
+  color: var(--brown);
+  font-size: 0.98rem;
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.bib .annot {
+  display: block;
+  margin-top: 0.5rem;
+  line-height: 1.65;
+}
